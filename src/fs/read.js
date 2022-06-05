@@ -1,7 +1,11 @@
 import { existsSync, readFileSync } from 'fs';
+import { dirname  } from 'path';
+import { fileURLToPath } from 'url';
 
 export const read = async () => {
-    const file = 'files/fileToRead.txt';
+    const __filename = fileURLToPath(import.meta.url);
+    const __dirname = dirname(__filename);
+    const file = `${__dirname}/files/fileToRead.txt`;
     const errorMessage = 'FS operation failed';
     const encoding = 'utf8';
 
