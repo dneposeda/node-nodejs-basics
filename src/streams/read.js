@@ -12,9 +12,7 @@ export const read = async () => {
 
     const stream = createReadStream(file, encoding);
 
-    stream.on('data', (text) => {
-        stdout.write(text)
-    })
+    stream.on('data', (text) => stdout.write(text))
 };
 
 read();
