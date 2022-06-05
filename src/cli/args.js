@@ -14,4 +14,4 @@ export const parseArgs = () => {
     console.log(Object.entries(argumentsCLI).map(([propName,value])=>`${propName} is ${value}`).join(', '))
 };
 
-parseArgs()
+parseArgs();

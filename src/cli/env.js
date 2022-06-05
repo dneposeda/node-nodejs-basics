@@ -14,4 +14,4 @@ export const parseEnv = () => {
     console.log(Object.entries(envVars).map(([name,value])=>`${name}=${value}`).join('; '))
 };
 
-parseEnv()
+parseEnv();

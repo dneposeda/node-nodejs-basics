@@ -17,3 +17,5 @@ export const read = async () => {
         throw new Error(errorMessage);
     }
 };
+
+read();

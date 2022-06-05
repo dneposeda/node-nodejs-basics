@@ -14,3 +14,5 @@ export const remove = async () => {
         throw new Error(errorMessage);
     }
 };
+
+remove();

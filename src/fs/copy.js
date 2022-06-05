@@ -26,3 +26,5 @@ export const copy = async () => {
         throw new Error(errorMessage);
     }
 };
+
+copy();
