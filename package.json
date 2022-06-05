@@ -12,7 +12,13 @@
     "fs:read": "node src/fs/read.js",
     "cli:env": "RSS_TAG=123123 RSS_VALUE=qweqwe node src/cli/env.js",
     "cli:args": "node src/cli/args.js --propName value --prop2Name value2",
-    "modules:modules": "node src/modules/cjsToEsm.mjs"
+    "modules:modules": "node src/modules/cjsToEsm.mjs",
+    "hash:hash": "node src/hash/calcHash.js",
+    "streams:read": "node src/streams/read.js",
+    "streams:write": "node src/streams/write.js",
+    "streams:transform": "node src/streams/transform.js",
+    "zip:compress": "node src/zip/compress.js",
+    "zip:decompress": "node src/zip/decompress.js"
   },
   "repository": {
     "type": "git",
